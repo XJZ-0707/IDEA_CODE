@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Java/out/production/java_尚学堂/com/sxt/lib/commons-io-2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Java/out/production/java_尚学堂/com/sxt/lib/commons-io-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
