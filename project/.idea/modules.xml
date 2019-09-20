@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Java-算法与数据结构/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/../Java-算法与数据结构/Algorithm/Algorithm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Java-算法与数据结构/DataStructures/DataStructures.iml" filepath="$PROJECT_DIR$/../Java-算法与数据结构/DataStructures/DataStructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JVM/JVM.iml" filepath="$PROJECT_DIR$/../JVM/JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Java/JavaWeb入门到精通_2(java类)/JavaWeb入门到精通_2(java类).iml" filepath="$PROJECT_DIR$/../Java/JavaWeb入门到精通_2(java类)/JavaWeb入门到精通_2(java类).iml" />
       <module fileurl="file://$PROJECT_DIR$/../Java_尚学堂2019/Java_尚学堂2019.iml" filepath="$PROJECT_DIR$/../Java_尚学堂2019/Java_尚学堂2019.iml" />
@@ -20,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/../day05_dataSource_jdbcTemplate/day05_dataSource_jdbcTemplate.iml" filepath="$PROJECT_DIR$/../day05_dataSource_jdbcTemplate/day05_dataSource_jdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/../day14_test/day14_test.iml" filepath="$PROJECT_DIR$/../day14_test/day14_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Java/java_尚学堂/java_尚学堂.iml" filepath="$PROJECT_DIR$/../Java/java_尚学堂/java_尚学堂.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../数据结构和算法/数据结构和算法.iml" filepath="$PROJECT_DIR$/../数据结构和算法/数据结构和算法.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Java/测试JDBC/测试JDBC.iml" filepath="$PROJECT_DIR$/../Java/测试JDBC/测试JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Java/算法图解/算法图解.iml" filepath="$PROJECT_DIR$/../Java/算法图解/算法图解.iml" />
     </modules>
