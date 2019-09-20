@@ -42,11 +42,9 @@ public class PersonTest {
 }
 
 class Person{
-	
 	private String name;
 	private int age;
-	
-	
+
 	public Person(){
 		
 //		this.eat();
@@ -63,7 +61,7 @@ class Person{
 	public Person(int age){
 		this();
 		this.age = age;
-		
+
 	}
 	
 	public Person(String name,int age){

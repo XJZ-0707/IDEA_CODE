@@ -79,7 +79,6 @@ public class ArrayTest {
 			System.out.println(names[i]);
 		}
 		
-		
 	}
 
 }

@@ -1,6 +1,6 @@
 package com.day12.java3;
 
-import com.atguigu.java2.Order;
+import com.day12.java2.Order;
 
 public class SubOrder extends Order {
 	

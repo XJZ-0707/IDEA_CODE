@@ -27,19 +27,23 @@ public class ValueTransferTest {
 		o1.orderId = 1001;
 		
 		Order o2 = o1;//赋值以后，o1和o2的地址值相同，都指向了堆空间中同一个对象实体。
-		
+		System.out.println("o2地址"+o2);
+		System.out.println("o1地址"+o1);
+
 		System.out.println("o1.orderId = " + o1.orderId + ",o2.orderId = " +o2.orderId);
 		
 		o2.orderId = 1002;
-		
+
 		System.out.println("o1.orderId = " + o1.orderId + ",o2.orderId = " +o2.orderId);
 		
 	}
 	
 }
 
+
 class Order{
 	
 	int orderId;
 	
 }
+

@@ -24,8 +24,7 @@ public class PersonTest {
 		Person p1 = new Person("Tom");
 		
 		System.out.println(p1.name);
-		
-		
+
 	}
 }
 

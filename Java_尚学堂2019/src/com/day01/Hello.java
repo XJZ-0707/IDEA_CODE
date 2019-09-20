@@ -27,8 +27,14 @@ public class Hello {
 		System.out.print("Hello World!");
 		System.out.println();//换行
 		System.out.println("Hello World!");
+		System.out.println("hello");
+		System.out.println("Hello.main");
+		int[] it = new int[3];
+		for (int i : it) {
+			System.out.println(i);
 		}
-}
+		}
+	}
 
 class Person{
 

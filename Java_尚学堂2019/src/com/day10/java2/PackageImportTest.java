@@ -1,14 +1,14 @@
 package com.day10.java2;
 
+import com.day10.exer4.Account;
+import com.day10.exer4.Bank;
+import com.day10.java2.java3.Dog;
+
 import java.lang.reflect.Field;
 import java.util.*;
 
-import com.atguigu.exer4.Account;
-import com.atguigu.exer4.Bank;
-import com.atguigu.java2.java3.Dog;
-
-import static java.lang.System.*;
-import static java.lang.Math.*;
+import static java.lang.Math.round;
+import static java.lang.System.out;
 
 /*
  * 一、package关键字的使用
@@ -51,8 +51,8 @@ public class PackageImportTest {
 		
 		Account acct = new Account(1000);
 		//全类名的方式显示
-		com.atguigu.exer3.Account acct1 = new com.atguigu.exer3.Account(1000,2000,0.0123);
-		
+		com.day10.exer3.Account acct1 = new com.day10.exer3.Account(1000,2000,0.0123);
+
 		Date date = new Date();
 		java.sql.Date date1 = new java.sql.Date(5243523532535L);
 		
