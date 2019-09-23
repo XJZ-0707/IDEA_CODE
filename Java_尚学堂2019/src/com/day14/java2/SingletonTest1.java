@@ -13,8 +13,7 @@ package com.day14.java2;
  *   
  *   懒汉式：好处：延迟对象的创建。
  * 		  目前的写法坏处：线程不安全。--->到多线程内容时，再修改
- * 
- * 
+ *
  */
 public class SingletonTest1 {
 	public static void main(String[] args) {

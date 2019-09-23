@@ -29,7 +29,7 @@ public class InterviewTest {
 
 	@Test
 	public void test3() {
-		Integer i = new Integer(1);
+		Integer i = 1;
 		Integer j = new Integer(1);
 		System.out.println(i == j);//false
 		

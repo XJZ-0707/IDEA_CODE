@@ -44,19 +44,19 @@ public class Customer {
 			return false;
 		return true;
 	}
-	
-	
-	
+
+
+
 	//重写的原则：比较两个对象的实体内容(即：name和age)是否相同
 	//手动实现equals()的重写
 //	@Override
 //	public boolean equals(Object obj) {
-//		
+//
 ////		System.out.println("Customer equals()....");
 //		if (this == obj) {
 //            return true;
 //        }
-//		
+//
 //		if(obj instanceof Customer){
 //			Customer cust = (Customer)obj;
 //			//比较两个对象的每个属性是否都相同
@@ -65,23 +65,24 @@ public class Customer {
 ////			}else{
 ////				return false;
 ////			}
-//			
+//
 //			//或
 //			return this.age == cust.age && this.name.equals(cust.name);
 //		}else{
 //			return false;
-//			
+//
 //		}
-//		
+//
 //	}
 	//手动实现
 //	@Override
 //	public String toString() {
-//		return "Customer[name = " + name + ",age = " + age + "]"; 
+//		return "Customer[name = " + name + ",age = " + age + "]";
 //	}
 	//自动实现
 	@Override
 	public String toString() {
 		return "Customer [name=" + name + ", age=" + age + "]";
 	}
+
 }

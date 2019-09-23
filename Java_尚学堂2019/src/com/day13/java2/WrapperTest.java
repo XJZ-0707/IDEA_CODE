@@ -40,7 +40,7 @@ public class WrapperTest {
 		float f1 = 12.3f;
 		String str2 = String.valueOf(f1);//"12.3"
 		
-		Double d1 = new Double(12.4);
+		Double d1 = 12.4;
 		String str3 = String.valueOf(d1);
 		System.out.println(str2);
 		System.out.println(str3);//"12.4"
@@ -77,7 +77,7 @@ public class WrapperTest {
 	//包装类--->基本数据类型:调用包装类Xxx的xxxValue()
 	@Test
 	public void test2(){
-		Integer in1 = new Integer(12);
+		Integer in1 = 12;
 		
 		int i1 = in1.intValue();
 		System.out.println(i1 + 1);
@@ -94,25 +94,26 @@ public class WrapperTest {
 		
 		int num1 = 10;
 //		System.out.println(num1.toString());
-		Integer in1 = new Integer(num1);
-		System.out.println(in1.toString());
-		
-		Integer in2 = new Integer("123");
+		Integer in1 = num1;
+		System.out.println(in1.toString());//10
+//		System.out.println(in1);//10
+
+		Integer in2 = Integer.valueOf("123");
 		System.out.println(in2.toString());
 		
 		//报异常
 //		Integer in3 = new Integer("123abc");
 //		System.out.println(in3.toString());
 		
-		Float f1 = new Float(12.3f);
+		Float f1 = 12.3f;
 		Float f2 = new Float("12.3");
 		System.out.println(f1);
-		System.out.println(f2);
+		System.out.println("f2 "+f2);
 		
-		Boolean b1 = new Boolean(true);
-		Boolean b2 = new Boolean("TrUe");
+		Boolean b1 = Boolean.TRUE;
+		Boolean b2 = Boolean.TRUE;
 		System.out.println(b2);
-		Boolean b3 = new Boolean("true123");
+		Boolean b3 = Boolean.valueOf("true123");
 		System.out.println(b3);//false
 		
 		
@@ -120,6 +121,18 @@ public class WrapperTest {
 		System.out.println(order.isMale);//false
 		System.out.println(order.isFemale);//null
 	}
+	@Test
+	public void Test0(){
+        Object o1 = true ? new Integer(1) : new Double(2.0);
+        System.out.println(o1);//
+
+        Object o2;
+        if (true)
+            o2 = new Integer(1);
+        else
+            o2 = new Double(2.0);
+        System.out.println(o2);//
+    }
 	
 }
 
@@ -127,4 +140,6 @@ class Order{
 	
 	boolean isMale;
 	Boolean isFemale;
+//	Boolean isFemale = Boolean.TRUE;
+
 }

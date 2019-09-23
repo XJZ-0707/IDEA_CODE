@@ -17,6 +17,7 @@ package com.day14.java3;
  *           以后，就只能在方法体内使用此形参，但不能进行重新赋值。
  *           
  *  static final 用来修饰属性：全局常量
+ *
  */
 public class FinalTest {
 	
@@ -24,7 +25,7 @@ public class FinalTest {
 	final int LEFT;
 	final int RIGHT;
 //	final int DOWN;
-	
+
 	{
 		LEFT = 1;
 	}
@@ -95,4 +96,7 @@ class BB extends AA{
 //	public void show(){
 //		
 //	}
+
+
+
 }

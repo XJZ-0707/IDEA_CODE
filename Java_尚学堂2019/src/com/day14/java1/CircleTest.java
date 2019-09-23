@@ -20,7 +20,7 @@ public class CircleTest {
 
 class Circle{
 	
-	private double radius;
+	private double  radius;
 	private int id;//自动赋值
 	
 	public Circle(){

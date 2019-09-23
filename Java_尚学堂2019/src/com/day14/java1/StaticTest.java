@@ -18,15 +18,15 @@ package com.day14.java1;
  *          
  *          ④		类变量	实例变量
  *          类		yes		no
- *          对象		yes		yes
+ *          对象	yes		yes
  *          
  *      3.3 静态属性举例：System.out; Math.PI;
  * 
  * 4.使用static修饰方法：静态方法
  * 		① 随着类的加载而加载，可以通过"类.静态方法"的方式进行调用
- * 		②			静态方法	非静态方法
- *          类		yes		no
- *          对象		yes		yes
+ * 		②			静态方法	 非静态方法
+ *          类		yes		 no
+ *          对象	yes		 yes
  * 		③ 静态方法中，只能调用静态的方法或属性
  *        非静态方法中，既可以调用非静态的方法或属性，也可以调用静态的方法或属性
  * 
@@ -46,7 +46,6 @@ public class StaticTest {
 	public static void main(String[] args) {
 		
 		Chinese.nation = "中国";
-		
 		
 		Chinese c1 = new Chinese();
 		c1.name = "姚明";

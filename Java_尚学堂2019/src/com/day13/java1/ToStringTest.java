@@ -29,6 +29,5 @@ public class ToStringTest {
 		
 		Date date = new Date(4534534534543L);
 		System.out.println(date.toString());//Mon Sep 11 08:55:34 GMT+08:00 2113
-		
 	}
 }

@@ -28,12 +28,12 @@ public class BlockTest {
 		
 		String desc = Person.desc;
 		System.out.println(desc);
-		
-		Person p1 = new Person();
-		Person p2 = new Person();
-		System.out.println(p1.age);
-		
-		Person.info();
+
+//		Person p1 = new Person();
+//		Person p2 = new Person();
+//		System.out.println(p1.age);
+//
+//		Person.info();
 	}
 }
 
@@ -59,6 +59,8 @@ class Person{
 	{
 		System.out.println("hello, block - 2");
 	}
+
+
 	{
 		System.out.println("hello, block - 1");
 		//调用非静态结构
