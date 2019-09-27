@@ -1,7 +1,5 @@
 package com.day16.java1;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.util.Date;
 import java.util.Scanner;
 

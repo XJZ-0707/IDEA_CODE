@@ -21,8 +21,10 @@ class Window3 implements Runnable {
     @Override
     public void run() {
         while (true) {
-
             show();
+            if (ticket<=0){
+                break;
+            }
         }
     }
 

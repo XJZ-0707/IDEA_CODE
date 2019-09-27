@@ -15,8 +15,8 @@ package com_2.day01.java;
  *      2. 实现的方式更适合来处理多个线程有共享数据的情况。
  *
  * 联系：public class Thread implements Runnable
- * 相同点：两种方式都需要重写run(),将线程要执行的逻辑声明在run()中。
- *
+ * 相同点：两种方式都需要重写run(),将线程要执行的
+ *逻辑声明在run()中。
  * @author shkstart
  * @create 2019-02-13 下午 4:34
  */
@@ -50,6 +50,7 @@ public class ThreadTest1 {
         Thread t2 = new Thread(mThread);
         t2.setName("线程2");
         t2.start();
+
     }
 
 }

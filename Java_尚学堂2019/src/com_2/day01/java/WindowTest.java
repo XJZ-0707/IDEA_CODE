@@ -42,6 +42,7 @@ public class WindowTest {
         t2.setName("窗口2");
         t3.setName("窗口3");
 
+
         t1.start();
         t2.start();
         t3.start();

@@ -1,5 +1,4 @@
 package com_2.day01.java;
-
 /**
  * 测试Thread中的常用方法：
  * 1. start():启动当前线程；调用当前线程的run()
@@ -32,6 +31,7 @@ package com_2.day01.java;
  * @author shkstart
  * @create 2019-02-13 下午 2:26
  */
+
 class HelloThread extends Thread{
     @Override
     public void run() {
@@ -68,13 +68,13 @@ public class ThreadMethodTest {
 
 //        h1.setName("线程一");
         //设置分线程的优先级
-        h1.setPriority(Thread.MAX_PRIORITY);
+        h1.setPriority(Thread.MAX_PRIORITY);//MAX_PRIORITY：10
 
         h1.start();
 
         //给主线程命名
         Thread.currentThread().setName("主线程");
-        Thread.currentThread().setPriority(Thread.MIN_PRIORITY);
+        Thread.currentThread().setPriority(Thread.MIN_PRIORITY);//MIN _PRIORITY：1
 
         for (int i = 0; i < 100; i++) {
             if(i % 2 == 0){

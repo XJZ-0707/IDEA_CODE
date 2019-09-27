@@ -15,11 +15,15 @@ class Window4 extends Thread {
     public void run() {
 
         while (true) {
-
             show();
+            if (ticket<=0){
+                break;
+            }
         }
 
+
     }
+    //需要声明为静态的，因为非静态可以调用静态的
     private static synchronized void show(){//同步监视器：Window4.class
         //private synchronized void show(){ //同步监视器：t1,t2,t3。此种解决方式是错误的
         if (ticket > 0) {
@@ -33,6 +37,7 @@ class Window4 extends Thread {
             System.out.println(Thread.currentThread().getName() + "：卖票，票号为：" + ticket);
             ticket--;
         }
+
     }
 }
 

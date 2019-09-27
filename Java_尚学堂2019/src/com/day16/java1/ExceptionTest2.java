@@ -53,7 +53,7 @@ public class ExceptionTest2 {
 	
 	
 	public static void method1() throws FileNotFoundException,IOException{
-		File file = new File("hello1.txt");
+		File file = new File("hello.txt");
 		FileInputStream fis = new FileInputStream(file);
 		
 		int data = fis.read();

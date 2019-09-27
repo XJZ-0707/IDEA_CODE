@@ -26,7 +26,7 @@ class Student{
 		}else{
 //			System.out.println("您输入的数据非法！");
 			//手动抛出异常对象
-//			throw new RuntimeException("您输入的数据非法！");
+//			throw new RuntimeException("您输入的数据非法！");//RuntimeException是运行时异常
 //			throw new Exception("您输入的数据非法！");
 			throw new MyException("不能输入负数");
 			//错误的
