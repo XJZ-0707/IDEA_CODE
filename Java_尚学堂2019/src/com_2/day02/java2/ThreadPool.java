@@ -52,7 +52,7 @@ public class ThreadPool {
         ExecutorService service = Executors.newFixedThreadPool(10);
         ThreadPoolExecutor service1 = (ThreadPoolExecutor) service;
         //设置线程池的属性
-//        System.out.println(service.getClass());
+        System.out.println(service.getClass());
 //        service1.setCorePoolSize(15);
 //        service1.setKeepAliveTime();
 
