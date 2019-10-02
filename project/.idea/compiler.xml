@@ -6,10 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Test_Maven_javaweb2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Ma_javaweb" target="1.5" />
+      <module name="Ma_javaweb23" target="1.5" />
+      <module name="Maven_java" target="1.5" />
+      <module name="Maven_java2" target="1.5" />
       <module name="spring01quick" target="1.5" />
+      <module name="spring01quickstart" target="1.5" />
+      <module name="Spring_day01_easy_01jdbc" target="1.5" />
+      <module name="Spring_day01_easy_01jdbc (1)" target="1.5" />
+      <module name="Spring_day01_easy_01jdbc (2)" target="1.5" />
+      <module name="Spring_two_javaweb" target="1.5" />
+      <module name="springboot" target="1.5" />
+      <module name="Test_Maev_javaweb2" target="1.5" />
+      <module name="Test_Maven_java2" target="1.7" />
+      <module name="Test_Maven_java3" target="1.5" />
+      <module name="Test_Maven_javaweb" target="1.5" />
+      <module name="Test_Maven_javaweb1" target="1.5" />
+      <module name="Test_Maven_javaweb2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

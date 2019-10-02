@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../设计模式/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/../设计模式/DesignPattern/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_WEB/JAVA_WEB.iml" filepath="$PROJECT_DIR$/JAVA_WEB/JAVA_WEB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../设计模式/JDKSRC/JDKSRC.iml" filepath="$PROJECT_DIR$/../设计模式/JDKSRC/JDKSRC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb入门到精通_2(java类)/JavaWeb入门到精通_2(java类).iml" filepath="$PROJECT_DIR$/JavaWeb入门到精通_2(java类)/JavaWeb入门到精通_2(java类).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../设计模式/DesignPattern/MyBatis.iml" filepath="$PROJECT_DIR$/../设计模式/DesignPattern/MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Oracle/Oracle.iml" filepath="$PROJECT_DIR$/../Oracle/Oracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server_Study04/Server_Study04.iml" filepath="$PROJECT_DIR$/Server_Study04/Server_Study04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server_study01/Server_study01.iml" filepath="$PROJECT_DIR$/Server_study01/Server_study01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Server_study03/Server_study03.iml" filepath="$PROJECT_DIR$/Server_study03/Server_study03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../设计模式/DesignPattern/Spring.iml" filepath="$PROJECT_DIR$/../设计模式/DesignPattern/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestAnnotation/TestAnnotation.iml" filepath="$PROJECT_DIR$/TestAnnotation/TestAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestReflection/TestReflection.iml" filepath="$PROJECT_DIR$/TestReflection/TestReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day05_JDBC/代码/itcast/day04_jdbc/day04_jdbc.iml" filepath="$PROJECT_DIR$/../day05_JDBC/代码/itcast/day04_jdbc/day04_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day05_dataSource_jdbcTemplate/day05_dataSource_jdbcTemplate.iml" filepath="$PROJECT_DIR$/../day05_dataSource_jdbcTemplate/day05_dataSource_jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_尚学堂/java_尚学堂.iml" filepath="$PROJECT_DIR$/java_尚学堂/java_尚学堂.iml" />
+      <module fileurl="file://$PROJECT_DIR$/测试JDBC/测试JDBC.iml" filepath="$PROJECT_DIR$/测试JDBC/测试JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/算法图解/算法图解.iml" filepath="$PROJECT_DIR$/算法图解/算法图解.iml" />
+    </modules>
+  </component>
+</project>
